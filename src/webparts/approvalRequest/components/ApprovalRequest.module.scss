@@ -1,0 +1,72 @@
+@import "~@fluentui/react/dist/sass/References.scss";
+
+.approvalRequest {
+  overflow: hidden;
+  padding: 1em;
+  color: "[theme:bodyText, default: #323130]";
+  color: var(--bodyText);
+  &.teams {
+    font-family: $ms-font-family-fallbacks;
+  }
+}
+
+.welcome {
+  text-align: center;
+}
+
+.welcomeImage {
+  width: 100%;
+  max-width: 420px;
+}
+
+.links {
+  a {
+    text-decoration: none;
+    color: "[theme:link, default:#03787c]";
+    color: var(
+      --link
+    ); // note: CSS Custom Properties support is limited to modern browsers only
+
+    &:hover {
+      text-decoration: underline;
+      color: "[theme:linkHovered, default: #014446]";
+      color: var(
+        --linkHovered
+      ); // note: CSS Custom Properties support is limited to modern browsers only
+    }
+  }
+}
+
+.formContainer {
+  padding: 20px 30px;
+  box-shadow: 1px 1px 10px 3px #cdc9c9;
+  border-radius: 7px;
+}
+
+.form {
+  padding-top: 10px;
+}
+
+.heading {
+  font-size: 18px;
+  font-weight: 700;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #242424;
+  border-left: 6px solid #018fd4;
+  border-radius: 5px;
+  padding-left: 10px;
+  line-height: 40px;
+}
+
+.submitBtn {
+  width: 100% !important;
+  width: 78px;
+  height: 30px;
+  border-radius: 3px;
+  cursor: pointer;
+  background-color: #283657;
+  color: #fff;
+  font-size: 13.33px;
+  font-family: Segoe UI;
+  font-weight: 600;
+}

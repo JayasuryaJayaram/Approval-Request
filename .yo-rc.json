@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "16.20.2",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.12.0"
+    },
+    "version": "1.18.1",
+    "libraryName": "approval-request",
+    "libraryId": "84e67334-cf53-4314-ba7f-66f5763236d4",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "Approval Request",
+    "solutionShortDescription": "Approval Request description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

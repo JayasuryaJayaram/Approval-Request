@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "approval-request-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/approvalRequest/ApprovalRequestWebPart.js",
+          "manifest": "./src/webparts/approvalRequest/ApprovalRequestWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "ApprovalRequestWebPartStrings": "lib/webparts/approvalRequest/loc/{locale}.js"
+  }
+}
